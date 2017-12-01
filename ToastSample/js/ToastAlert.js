@@ -1,4 +1,6 @@
-﻿function toastify(type, msg, title, position, showclosebutton,loader) {
+﻿function toastify(type, msg, title, position, showclosebutton, loader) {
+
+    $.toast().reset('all');
     var icontype, location, closebutton, loaderUse;
     if (type == null || type == '') {
         icontype = 'success';
