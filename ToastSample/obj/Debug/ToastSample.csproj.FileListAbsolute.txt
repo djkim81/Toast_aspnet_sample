@@ -3,3 +3,9 @@ D:\SKT GW Source\Toast\ToastSample\ToastSample\bin\ToastSample.dll
 D:\SKT GW Source\Toast\ToastSample\ToastSample\bin\ToastSample.pdb
 D:\SKT GW Source\Toast\ToastSample\ToastSample\obj\Debug\ToastSample.dll
 D:\SKT GW Source\Toast\ToastSample\ToastSample\obj\Debug\ToastSample.pdb
+D:\SKT GW Source\ToastAspnet\Toast_aspnet_sample\ToastSample\bin\ToastSample.dll.config
+D:\SKT GW Source\ToastAspnet\Toast_aspnet_sample\ToastSample\bin\ToastSample.dll
+D:\SKT GW Source\ToastAspnet\Toast_aspnet_sample\ToastSample\bin\ToastSample.pdb
+D:\SKT GW Source\ToastAspnet\Toast_aspnet_sample\ToastSample\obj\Debug\ToastSample.csprojResolveAssemblyReference.cache
+D:\SKT GW Source\ToastAspnet\Toast_aspnet_sample\ToastSample\obj\Debug\ToastSample.dll
+D:\SKT GW Source\ToastAspnet\Toast_aspnet_sample\ToastSample\obj\Debug\ToastSample.pdb
