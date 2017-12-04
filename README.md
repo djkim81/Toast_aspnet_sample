@@ -14,7 +14,7 @@ by Use [Kamran Ahmed](http://kamranahmed.info/toast)
 - Main.aspx
 
 ## Code
-**javascript function(ToastAlert.js)**
+**1. javascript function(ToastAlert.js)**
 ```javascript
 function toastify(type, msg, title, position, showclosebutton, loader) {
     $.toast().reset('all');
@@ -62,7 +62,7 @@ function toastify(type, msg, title, position, showclosebutton, loader) {
     });
 }
 ```
-**.aspx toast case**
+**2. .aspx toast case**
 ```javascript
 // Sample fucntion
  function Fn_AspxNoti(type, msg, title, position, showclosebutton, loader) {
@@ -80,7 +80,7 @@ function toastify(type, msg, title, position, showclosebutton, loader) {
 <input type="button" onclick="Fn_AspxNoti('warning', null, '경고', null, null,true);" value="Loading bar 추가" />
 ```
 
-**.cs toast case**
+**3. .cs toast case**
 ```javascript
 // Common Class(MessageBox.cs)
 public static class MessageBox
