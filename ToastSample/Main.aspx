@@ -95,7 +95,7 @@
                             </tr>
                             <tr>
                                 <td style="text-align: center;">
-                                    <table>
+                                    <table style="margin:auto;">
                                         <tr>
                                             <td>1.단순메시지</td>
                                         </tr>
@@ -123,7 +123,7 @@
                             </tr>
                              <tr>
                                 <td style="text-align: center;">
-                                    <table style="text-align: center;">
+                                    <table style="margin:auto;">
                                         <tr>
                                             <td>2.Title 추가</td>
                                         </tr>
@@ -136,7 +136,7 @@
                             </tr>
                              <tr>
                                 <td style="text-align: center;">
-                                    <table style="text-align: center;">
+                                    <table style="margin:auto;">
                                         <tr>
                                             <td>3.창 위치변경</td>
                                         </tr>
@@ -179,7 +179,7 @@
                             </tr>
                              <tr>
                                 <td style="text-align: center;">
-                                    <table style="text-align: center;">
+                                    <table style="margin:auto;">
                                         <tr>
                                             <td>4.사용자 닫기버튼추가</td>
                                         </tr>
@@ -192,7 +192,7 @@
                             </tr>
                              <tr>
                                 <td style="text-align: center;">
-                                    <table style="text-align: center;">
+                                    <table style="margin:auto;">
                                         <tr>
                                             <td>5.Loading bar 추가</td>
                                         </tr>
