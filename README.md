@@ -1,5 +1,6 @@
-# Toast ASP.NET Sample for Intranet 
-Toast Notification ASP.NET Sample MIT © DaeJong Kim
+# Toast ASP.NET Sample 
+Toast Notification ASP.NET Sample 
+Use MIT © [Kamran Ahmed](http://kamranahmed.info/toast)
 
 # How to use
 
