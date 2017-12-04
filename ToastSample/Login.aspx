@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    *이동된 페이지 입니다.
+    *이동된 리스트 페이지 입니다.
     </div>
     </form>
 </body>
