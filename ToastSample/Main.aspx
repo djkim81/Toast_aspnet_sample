@@ -88,10 +88,10 @@
             </table>
             <table style="margin-left: 50px; margin-top: 0px; width: 1000px;" border="1">
                 <tr>
-                    <td style="text-align: center; width: 400px; padding-bottom: 10px; font-weight: bold; font-size: 20px;">
-                        <table>
+                    <td style="text-align: center; width: 500px; padding-bottom: 10px; font-weight: bold; font-size: 20px;">
+                        <table style="margin:auto;">
                             <tr>
-                                <td>[.ASPX단에서 사용 CASE] </td>
+                                <td style="text-align: center;color:red;">[.ASPX단에서 사용 CASE] </td>
                             </tr>
                             <tr>
                                 <td style="text-align: center;">
@@ -209,11 +209,10 @@
 
 
                     </td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td colspan="3" style="text-align: center; width: 400px; font-weight: bold; font-size: 20px;">
-                        <table>
+                    <td style="text-align: center; width: 500px; font-weight: bold; font-size: 20px;">
+                        <table style="margin:auto;">
                             <tr>
-                                <td>[.CS단에서 사용 CASE]</td>
+                                <td style="color:red;">[.CS단에서 사용 CASE]</td>
                             </tr>
                             <tr>
                                 <td>
@@ -241,7 +240,7 @@
                                 </td>
                             </tr>
                         </table>
-
+                        
                     </td>
                 </tr>
 
