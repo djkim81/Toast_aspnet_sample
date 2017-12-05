@@ -7,8 +7,7 @@ by Use [Kamran Ahmed](http://kamranahmed.info/toast) <br>
 - jquery >= 1.6.3
 
 # How to use
-
-- You can directly download the repository(.zip)
+- Clone the git repository or You can directly download the repository(.zip)
 
 # Demo Site 
 
