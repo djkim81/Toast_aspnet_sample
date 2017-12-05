@@ -15,7 +15,8 @@
     <form id="form1" runat="server">
     <div>
     *팝업화면<br />
-        <asp:Button ID="btnNotice_TworldNet" runat="server" Text="알림처리 후 창닫히고 부모창 Reload(CloseWindowAndParentReloadAsync_TWorldNet)" OnClick="btnNotice_TworldNet_Click" />
+        <asp:Button ID="btnNotice_TworldNet" runat="server" Text="1. 알림처리 후 창닫히고 부모창 Reload(CloseWindowAndParentReloadAsync_TWorldNet)" OnClick="btnNotice_TworldNet_Click" /> <br />
+        <asp:Button ID="btnNotice_TworldNet_CallBack" runat="server" Text="2. 알림처리 후 창닫히고 부모창 Reload(CloseWindowAndParentReloadAsync_TWorldNet) toast afterHidden() 함수" OnClick="btnNotice_TworldNet_CallBack_Click" />
     </div>
     </form>
 </body>

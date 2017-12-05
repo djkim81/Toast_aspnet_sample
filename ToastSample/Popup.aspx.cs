@@ -18,5 +18,11 @@ namespace ToastSample
         {
              MessageBox.CloseWindowAndParentReloadAsync_TWorldNet(this.Page, "success", "정상적으로 저장되었습니다", null, null, false, false);
         }
+
+
+        protected void btnNotice_TworldNet_CallBack_Click(object sender, EventArgs e)
+        {
+            MessageBox.CloseWindowAndParentReloadAsync_TWorldNetCallBack(this.Page, "success", "정상적으로 저장되었습니다", null, null, false, false);
+        }
     }
 }

@@ -68,5 +68,48 @@ namespace ToastSample
 
 
 
+        public static void MessageAndCloseWindowCallBack(this Page Page, String Type, String Message, String Title, String Position, Boolean ShowCloseButton, Boolean Loader)
+        {
+            Page.ClientScript.RegisterClientScriptBlock(
+              Page.GetType(),
+              "MessageBox",
+              "toastify('" + Type + "','" + Message + "','" + Title + "','" + Position + "'," + ShowCloseButton.ToString().ToLower() + "," + Loader.ToString().ToLower() + ",'CLOSEWINDOW');",
+              true
+           );
+        }
+
+        public static void MessageAndChangeLocationCallBack(this Page Page, String Type, String Message, String Title, String Position, Boolean ShowCloseButton, Boolean Loader, String Url)
+        {
+
+            Page.ClientScript.RegisterClientScriptBlock(
+             Page.GetType(),
+             "MessageBox",
+             "toastify('" + Type + "','" + Message + "','" + Title + "','" + Position + "'," + ShowCloseButton.ToString().ToLower() + "," + Loader.ToString().ToLower() + ",'CHANGELOCATION','" + Url + "');",
+             true
+          );
+        }
+
+        public static void MessageAndReloadCallBack(this Page Page, String Type, String Message, String Title, String Position, Boolean ShowCloseButton, Boolean Loader)
+        {
+            Page.ClientScript.RegisterClientScriptBlock(
+              Page.GetType(),
+              "MessageBox",
+              "toastify('" + Type + "','" + Message + "','" + Title + "','" + Position + "'," + ShowCloseButton.ToString().ToLower() + "," + Loader.ToString().ToLower() + ",'RELOAD');",
+              true
+           );
+        }
+
+        //TworldNet
+        public static void CloseWindowAndParentReloadAsync_TWorldNetCallBack(this Page Page, String Type, String Message, String Title, String Position, Boolean ShowCloseButton, Boolean Loader)
+        {
+            Page.ClientScript.RegisterClientScriptBlock(
+              Page.GetType(),
+              "MessageBox",
+              "opener.location.href = opener.location.href.replace('NoticeType','Expired');toastify('" + Type + "','" + Message + "','" + Title + "','" + Position + "'," + ShowCloseButton.ToString().ToLower() + "," + Loader.ToString().ToLower() + ",'CLOSERELOAD');",
+              true
+           );
+        }
+
+
     }
 }

@@ -33,5 +33,21 @@ namespace ToastSample
         {
             MessageBox.MessageAndReload(this.Page, "success", "정상적으로 저장되었습니다", null, null, false, false);
         }
+
+
+        protected void btnNotice_CallBack_Close_Click(object sender, EventArgs e)
+        {
+            MessageBox.MessageAndCloseWindowCallBack(this.Page, "success", "정상적으로 저장되었습니다", null, null, false, false);
+        }
+
+        protected void btnNotice_Change_CallBack_Click(object sender, EventArgs e)
+        {
+            MessageBox.MessageAndChangeLocationCallBack(this.Page, "success", "정상적으로 저장되었습니다", null, null, false, false, "Login.aspx");
+        }
+
+        protected void btnNotice_Reload_CallBack_Click(object sender, EventArgs e)
+        {
+            MessageBox.MessageAndReloadCallBack(this.Page, "success", "정상적으로 저장되었습니다", null, null, false, false);
+        }
     }
 }
