@@ -1,6 +1,7 @@
 # Toast ASP.NET Sample 
-Toast Notification ASP.NET Sample 
-by Use [Kamran Ahmed](http://kamranahmed.info/toast)
+Toast Notification ASP.NET Sample <br>
+by Use [Kamran Ahmed](http://kamranahmed.info/toast) <br>
+![](./image/demo.PNG)
 
 # Dependencies
 - jquery >= 1.6.3
